@@ -1,0 +1,28 @@
+.container{
+	width:700px ;
+	margin: 0 auto;
+}
+
+.middle {
+	text-align: center;
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 300px){
+	.container {
+		width: 200px;
+	}
+}
+
+#intro p {
+	margin-bottom: 30px;
+}
